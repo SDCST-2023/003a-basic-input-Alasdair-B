@@ -22,3 +22,24 @@ What ir your email:crazyAsian@qq.com
 Your name is Jackie Chan, and your email is crazyAsian@qq.com
 
 """
+Name = None
+Email = None
+
+def request():
+    global Name
+    global Email
+    Name = str(input("What is your name?\n"))
+    Email = str(input("What is your email address?\n"))
+
+def display():
+    global Name
+    global Email
+    print("Your name is", Name, "and your email is", Email)
+
+def inout():
+    print("\n")
+    request()
+    display()
+    inout()
+
+inout()
