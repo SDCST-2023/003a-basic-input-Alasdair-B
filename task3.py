@@ -13,7 +13,7 @@
 #
 # test case: 5, 1, 11 should give x = 2
 
-
+import math
 x = 0.0
 
 print("This calculator will solve for x in equations of the form ax+b=c\n")
